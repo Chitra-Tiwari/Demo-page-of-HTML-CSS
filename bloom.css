@@ -1,0 +1,448 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 90%)
+    
+   
+}
+/* .container:hover{
+    background-color:red;
+    width: 50vw;
+    height: 50vh;
+} */
+.top{
+     width: 100vw;
+     height: 10vh;
+    background-color:black;
+    display: flex;
+
+}
+.top:hover{
+    background-color: darkgoldenrod;
+}
+.logo{
+    width: 30vw;
+    height: 10vh;
+    /*background-color:brown;*/
+    font-style: italic;
+    color: white;
+    margin-left: 8vw;
+    margin-top: 1vh;
+}
+
+
+.menu{
+    width: 70vw;
+    height: 10vh;
+    /* background-color: rgb(36, 22, 5); */
+color: white;
+margin-top: 1vh;
+margin-right: 2vw;
+  
+   
+   
+}
+ul{
+    display: flex;
+    column-gap: 1em;
+    justify-content: flex-end;
+    padding-left: 7vw;
+    column-gap:normal;
+    margin-top: 0vh;
+    margin-right: 0vw;
+    padding-top: 1vh;
+}
+ul>li{
+list-style-type: none;
+}
+.secondPortion{
+    width: 100vw;
+   height: 40vh;
+    /*background-color: cornflowerblue;*/
+    display: flex;
+}
+.secondPortion:hover{
+    background-color: darkslategray;
+}
+.lorem{
+    width: 55vw;
+    height: 40vh;
+   /* background-color:coral;*/
+    padding-left: 8vw;
+    padding-right: 2vw;
+}
+.heading{
+    padding-top:2vh;
+    position: relative;
+    right: 7vw;
+    
+}
+.picture{
+    width: 60vw;
+    height: 40vh;
+   /* background-color:darkgoldenrod;*/
+}
+
+button{
+    width:10vw;
+    height:5vh;
+    background-color:chocolate;
+    margin-top: 4vh;
+}
+.firstimg{
+    width: 50vw;
+    height: 40vh;
+    background-color:red;
+    padding-right: 1vw;
+    padding-top: 3vh;
+    transition: transform 20s;
+    
+}
+.firstimg:hover{
+    /* background-color: chartreuse; */
+    transform: rotate(360deg);
+     /* transform: scale(2,2); */ */
+      /* transform: skew(20deg);  */
+}
+.thirdPortion{
+    width: 100vw;
+    height: 55vh;
+   background-color:whitesmoke;
+    display: flex;
+    margin-top: 3vh;
+    
+ }
+ .sec1{
+    width: 33vw;
+    height:55vh ;
+   /* background-color: chartreuse;*/
+
+ }
+ h3{
+    margin-left:7vw ;
+    margin-bottom: 2vh;
+ }
+ h4{
+    margin-left:7vw ;
+    margin-bottom: 2vh;
+ }
+ .para{
+    margin-left:7vw ;
+    margin-bottom: 2vh;
+    padding-bottom: 8vh;
+    position: relative;
+    bottom: 3vh;
+   } 
+ 
+ .LM1{
+    width:10vw;
+    height:5vh;
+    background-color:chocolate;
+    margin-top: 2vh;
+    transition: transform 5s;
+
+ }
+ .LM1:hover{
+    transform: scale(2,2);
+    color:chartreuse;
+    background-color: darkgreen;
+ }
+ .sec3{
+    position: relative;
+    left: 0vw;
+ }
+ 
+ .s1{
+    width:17vw;
+    height: 25vh;
+    background-color: black;
+    margin-left: 7vw;
+    transition: transform 10s;
+ }
+ .s1:hover{
+    background-color: darksalmon;
+    /* transform:rotate(360deg); */
+    /* transform: scale(2,0); */
+    transform: skew(30deg,50deg);
+    background-image: url(images/blooooom.jpg);
+ }
+ .sec2{
+    width: 33vw;
+    height:55vh ;
+    /*background-color: rgb(242, 0, 255);*/
+ }
+    .sec3{
+        width: 33vw;
+        height:55vh ;
+        /*background-color: rgb(25, 0, 255);*/
+    }
+    .fourthportion{
+        width: 100vw;
+   height: 41vh;
+    background-color:black;
+    margin-top: 0vh;
+    display: flex;
+
+    }
+    .lastone{
+        width: 33vw;
+        height:40vh ;
+        /* background-color: blue; */
+    
+    }
+    .cal1 .cal2 .cal3{
+    width:33vw;
+    height: 10vh;
+    background-color: cadetblue;
+    
+}
+    .jul2{
+        width:4vw;
+        height:9vh;
+        padding-top: 0vh;
+        position: relative;
+        bottom: 13vh;
+        left:6vw;
+    }
+    .jul1{
+        width:4vw;
+        height:9vh;
+     position: relative;
+      top:4vh;
+      left:6vw;
+      transition: color 10s;
+    }
+    .jul1:hover{
+        color: blue;
+        transform: scale(2,2);
+    }
+    .jul3{
+        width:4vw;
+        height:9vh;
+        position: relative;
+        bottom: 26vh;
+        left:6vw;
+        
+    
+    }
+    .july{
+        color: white;
+        font-weight: 800;
+        font-size: larger;
+        position: relative;
+        right:1vw;
+        top:2vh;
+        transition:background-color 10s;
+    }
+    .july:hover{
+        background-color: blue;
+    }
+    .latest{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 5vh;
+        right:-4vw;
+        color:white;
+    }
+    .latest1{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 22vh;
+        right:-4vw;
+        color:white;
+    }
+    .latest2{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 35vh;
+        right:-4vw;
+        color:white;
+        font size:100;
+        
+    }
+    .post{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 11vh;
+        left:11vw;
+        color:white;
+        font-size:smaller;
+    }
+    .post1{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 28vh;
+        left:11vw;
+        color:white;
+        font-size:smaller;
+    }
+    .post2{
+        width:30:vw;
+        height:4vh;
+        position: relative;
+        bottom: 41vh;
+        left:11vw;
+        color:white;
+        font-size:smaller;
+    
+    }
+    .lasttwo{
+        width: 33vw;
+        height:40vh ;
+       /* background-color:brown;*/
+        position: absolute;
+        left:33vw;
+        bottom: -51vh;
+        
+    }
+    .about{
+        width: 30vw;
+        height: 10vh;
+       /* background-color: aquamarine;*/
+        position: relative;
+        right: 6vw;
+        top:2vh;
+        font-weight:bold;
+        color: white;
+    
+    }
+    .about1{
+        width: 30vw;
+        height: 30vh;
+        /* background-color: aquamarine; */
+        padding-left: 1vw;
+        margin-left: 3vw;
+        position: relative;
+        right: 3vw;
+        color: white;
+        font-size: smaller;
+        /* visibility: hidden; use to hide the elements */
+        /* text-indent: 50px;#for start space in first line of p */
+    }
+    .about1:hover{
+        /* background-color: darkorange; */
+        color:red;
+        }
+    .lastthree{
+            width: 33vw;
+            height:40vh ;
+             /* background-color:chocolate;  */
+            position: relative;
+        left:66vw;
+        bottom:81vh ;
+    }
+    .flogo{
+        width:2vw;
+        height: 5vh;
+        position: relative;
+        top:6vh;
+        left:7vw;
+        transition: transform 10s;
+    }
+    .flogo:hover{
+        transform: rotate(360deg);
+    }
+    .connect{
+        font-size: larger;
+        position: relative;
+        top:5vh;
+        left:0vw;
+        color: white;
+    }
+    .connect:hover{
+        color: chartreuse;
+        transform: translateX(9px);
+    }
+    .fblogo{
+        width:4vw;
+        height: 6vh;
+        position: relative;
+        top:4vh;
+        left:8vw;
+        font-size: large;
+        color: white;
+    }
+    .tlogo{
+        width:2vw;
+        height: 5vh;
+        /* position: relative;
+        top:11vh;
+        right: 2vw;
+        margin-left: -2vw; */
+        position: absolute;
+        top:18vh;
+        left:7vw;
+        transition: transform 10s;
+        
+    }
+    .tlogo:hover{
+    
+        transform: rotate(360deg);
+    }
+    .twtrlogo{
+        width:4vw;
+        height: 6vh;
+        /* position: relative;
+        top:2vh;
+        left:8vw; */
+        position: absolute;
+        top:19vh;
+        left:10vw;
+        font-size: large;
+        color: white;
+
+    }
+    .rslogo{
+        width:2vw;
+        height: 5vh;
+        position: relative;
+        top:12vh;
+        left:7vw;
+        transition: transform 10s;
+
+    }
+    .rslogo:hover{
+        transform: rotate(360deg);
+    }
+    .rsslogo{
+        width:4vw;
+        height: 6vh;
+        position: relative;
+        top:11vh;
+        left:8vw;
+        font-size: large;
+        color: white;
+    }
+    .glogo{
+        width:2vw;
+        height: 4vh;
+        position: absolute;
+        top:30vh;
+        left:7vw;
+        transition: transform 10s;
+    }
+    .glogo:hover{
+        transform: rotate(360deg);
+    
+    }
+    .goologo{
+        width:4vw;
+        height: 6vh;
+        position: relative;
+        top:17vh;
+        left:5vw; 
+        font-size: large;
+        color: white;
+       
+    }
+    
